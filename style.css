@@ -15,11 +15,16 @@ body {
           transform-style: preserve-3d;
   -webkit-animation: rotateSphere 4s linear infinite;
           animation: rotateSphere 4s linear infinite;
-   animation-name: rotateSphere;
- animation-duration: 4s;
- animation-iteration-count: infinite;
+  -webkit-animation-name: rotateSphere;
+ animation-name: rotateSphere;
+ -webkit-animation-duration: 4s;
+         animation-duration: 4s;
+ -webkit-animation-iteration-count: infinite;
+         animation-iteration-count: infinite;
 
- animation-timing-function: linear;
+ -webkit-animation-timing-function: linear;
+
+         animation-timing-function: linear;
  
 }
 .sphere .plane {
