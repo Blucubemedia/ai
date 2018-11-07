@@ -309,6 +309,12 @@ body {
     -webkit-transform: rotate3d(1, 1, 1, -360deg);
             transform: rotate3d(1, 1, 1, -360deg);
   }
+    25% {
+    -webkit-transform: rotate3d(1, 2, 1, 90deg);
+  }
+    50% {
+    -webkit-transform: rotate3d(1, 2, 1, 180deg);
+  }
   100% {
     -webkit-transform: rotate3d(0, 0, 0, 360deg);
             transform: rotate3d(0, 0, 0, 360deg);
@@ -319,6 +325,12 @@ body {
   0% {
     -webkit-transform: rotate3d(1, 1, 1, -360deg);
             transform: rotate3d(1, 1, 1, -360deg);
+  }
+    25% {
+    -webkit-transform: rotate3d(1, 2, 1, 90deg);
+  }
+    50% {
+    -webkit-transform: rotate3d(1, 2, 1, 180deg);
   }
   100% {
     -webkit-transform: rotate3d(0, 0, 0, 360deg);
