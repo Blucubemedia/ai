@@ -15,6 +15,12 @@ body {
           transform-style: preserve-3d;
   -webkit-animation: rotateSphere 4s linear infinite;
           animation: rotateSphere 4s linear infinite;
+   animation-name: rotateSphere;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+
+ animation-timing-function: linear;
+ 
 }
 .sphere .plane {
   position: absolute;
